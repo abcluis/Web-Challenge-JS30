@@ -1,0 +1,29 @@
+ *{
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+:root{
+    --base:#0ab9d0;
+    --spacing:10px;
+    --blur:5px;
+}
+span{
+    color: white;
+    font-size: 18px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+h1{
+    color: var(--base);
+}
+.container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
